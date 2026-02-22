@@ -1,0 +1,13 @@
+print("*"*10+"Welcome to the age calcilator"+"*"*10)
+Birth_year=int(input("enter your birth year( in YYYY format): "))
+Current_year=int(input("Enter Current year (in YYYY format): "))
+Current_month=int(input("Enter Current month(In Number, in MM format): "))
+Current_day=int(input("enter current day (Date in DD format)"))
+print("\n")
+Age=Current_year-Birth_year
+print("Your current age(in years) is : ",Age , " Years ")
+print("Your Age in Months: ",Age*12)
+print("Your Age in days: ",Age*365)
+print("Your Age in hours: ",Age*365*24)
+print("Your Age in Minutes: ",Age*365*24*60)
+print("Years until your age 100: ",100- Age)
