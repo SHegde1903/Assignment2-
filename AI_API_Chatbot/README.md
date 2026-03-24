@@ -33,7 +33,7 @@ pip install python-dotenv
 ```
 ### 4. steps to create API Keys.
 ```markdown
-#### 1. Gemini  API Key
-1. Visit https://aistudio.google.com
+ Gemini  API Key
+1. Visit [Google AI studio ] (https://aistudio.google.com)
 2. Sign in with Google account
-3. Click ** Get API Key **
+3. Click **Get API Key**
