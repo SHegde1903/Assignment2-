@@ -141,7 +141,7 @@ If user wants to exit from the program need to type **exit**.
 ![gemini cahtbot result](AI_API_Chatbot\results\gemini.jpeg)
 ---
 ### 2. Cohere chatbot program 
-![Cohere cahtbot result](AI_API_Chatbot\results\cohere.png)
+![Cohere cahtbot result](E:\campuspe-ai\AI_API_Chatbot\AI_API_Chatbot\results\cohere.png)
 ---
 ### 3. Groq chatbot program 
 ![Groq chatbot result](AI_API_Chatbot\results\groq result.png)
