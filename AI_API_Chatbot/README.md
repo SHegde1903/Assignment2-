@@ -86,7 +86,7 @@ ollama serve
 ```
 Install the model:
 ```bash
-ollama pull llama2
+ollama pull phi
 ```
 ---
 ## Execution Instruction of the programs.
