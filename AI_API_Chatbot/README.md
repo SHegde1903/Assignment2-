@@ -89,3 +89,62 @@ Install the model:
 ollama pull llama2
 ```
 ---
+## Execution Instruction of the programs.
+
+Navigate to the folder **AI_API_Chatbot ->Activate the Virtual Environment**.
+---
+### 1. Run Gemini Cahtbot Programm.
+```bash 
+pythom gemini_chatbot.py 
+```
+---
+### 2. Run Cohere Cahtbot Programm.
+```bash 
+pythom cohere_chatbot.py 
+```
+---
+### 3. Run Groq Cahtbot Programm.
+```bash 
+pythom groq_chatbot.py 
+```
+---
+### 4. Run huggingface Cahtbot Programm.
+```bash 
+pythom huggingface_chatbot.py 
+```
+---
+### 5. Run Gemini Cahtbot Programm.
+```bash 
+pythom ollama_chatbot.py 
+```
+---
+### 6. Run Gemini Cahtbot Programm.
+```bash 
+pythom multiple_api_chatbot.py 
+
+```
+This program Allow the user to select the AI provider between :
+1. Gemini
+2. Cohere
+3. Groq
+4. Huggingface
+5. Ollama
+ once the option selected the user can interact with the chatbot and recieve the generated response. 
+ if user wants to exit from the program need to type **exit**.
+
+---
+
+## Result Screens of the programs 
+### 1. Gemini chatbot program 
+---
+### 2. Cohere chatbot program 
+---
+### 3. Groq chatbot program 
+---
+### 4. Ollama chatbot program 
+---
+### 5. Huggingface chatbot program 
+---
+### 6. Multiple API  chatbot program 
+---
+
