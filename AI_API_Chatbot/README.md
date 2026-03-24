@@ -147,7 +147,7 @@ If user wants to exit from the program need to type **exit**.
 ![Groq chatbot result](results/groq.png)
 ---
 ### 4. Ollama chatbot program 
-![Ollama chatbot result]()
+![Ollama chatbot result](results/ollama.png)
 ---
 
 ### 5. Huggingface chatbot program 

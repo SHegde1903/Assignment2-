@@ -5,7 +5,7 @@ def query_ollama(prompt):
         response = requests.post(
             "http://localhost:11434/api/generate",
             json={
-                "model": "phi3",   # ✅ lightweight model
+                "model": "phi",   # ✅ lightweight model
                 "prompt": prompt,
                 "stream": False
             }
