@@ -1,47 +1,38 @@
 import os
 from dotenv import load_dotenv
-import google.generativeai as genai
+from google import genai
 
-# ✅ Load .env file (IMPORTANT)
-load_dotenv(dotenv_path=".env")
+# Load environment variables
+load_dotenv()
 
-# ✅ Get API key
-api_key = os.getenv("GOOGLE_API_KEY")
+# Get API key
+api_key = os.getenv("GEMINI_API_KEY")
 
-# ✅ Debug check (remove later if you want)
 if not api_key:
     print("❌ ERROR: API key not found. Check your .env file.")
     exit()
-else:
-    print("✅ API key loaded successfully!")
 
-# ✅ Configure Gemini
-genai.configure(api_key=api_key)
+print("✅ API key loaded successfully!")
 
-# ✅ Load model
-model = genai.GenerativeModel("gemini-2.5-flash")
+# Create Gemini client
+client = genai.Client(api_key=api_key)
 
-# ✅ Function to query Gemini
-def query_gemini(prompt):
+print("\n🤖 Gemini Chatbot Started (type 'exit' to quit)\n")
+
+while True:
+    user_prompt = input("You: ")
+
+    if user_prompt.lower() in ["exit", "quit", "bye"]:
+        print("👋 Exiting... Goodbye!")
+        break
+
     try:
-        response = model.generate_content(prompt)
-        return response.text
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=user_prompt
+        )
+
+        print("Gemini:", response.text)
+
     except Exception as e:
-        return f"Error: {str(e)}"
-
-# ✅ Main chatbot loop
-if __name__ == "__main__":
-    print("\n🤖 Gemini Chatbot Started (type 'exit' to quit)\n")
-
-    while True:
-        user_prompt = input("You: ")
-
-        # ✅ Exit condition
-        if user_prompt.lower() in ["exit", "quit", "bye"]:
-            print("👋 Exiting... Goodbye!")
-            break
-
-        print("Gemini: ", end="")
-
-        result = query_gemini(user_prompt)
-        print(result)
+        print("Error:", e)
