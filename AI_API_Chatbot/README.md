@@ -129,6 +129,7 @@ This program Allow the user to select the AI provider between :
 3. Groq
 4. Huggingface
 5. Ollama
+
 once the option selected the user can interact with the chatbot and recieve the generated response. 
 
 If user wants to exit from the program need to type **exit**.
