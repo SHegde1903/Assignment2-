@@ -13,5 +13,5 @@ This project includes the following programs:
 
 ## Setup Instructions
 ### 1. Creating Virtual Environment 
-''' python 
+'''bash  
 python -m venv venv
