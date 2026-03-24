@@ -10,8 +10,9 @@ The project demonstrate the usage of AI API's to  create a simple chatbot using 
 - ` Ollama_chatbot.py ` - Using Ollama local model.
 - ` cohere_chatbot.py ` - Using Cohere API.
 - ` multiple_api_chatbot.py ` - Program using all the above API to interact with the user.
-
 ---
+## Set up Instructions
+
 ## 1. Creating the Virtual Environment.
 ``` bash
 python -m venv venv 
@@ -31,9 +32,9 @@ pip install cohere
 pip install groq
 pip install python-dotenv
 ```
-### 4. steps to create API Keys.
-```markdown
- Gemini  API Key
-1. Visit [Google AI studio ] (https://aistudio.google.com)
+## steps to create API Keys.
+
+### 1.Gemini  API Key
+1. Visit [Google AI studio](https://aistudio.google.com)
 2. Sign in with Google account
 3. Click **Get API Key**
