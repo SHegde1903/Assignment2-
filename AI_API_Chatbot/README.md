@@ -46,7 +46,7 @@ setx GEMINI_API_KEY "your_gemini_api_key"
 ```
 
 ### 2. Groq API Key
-1. Visit[Groq Console](https://console.groq.com)
+1. Visit [Groq Console](https://console.groq.com)
 2. Create an Account and generate the API key.
 
 Set Environment Variable: 
@@ -55,7 +55,7 @@ setx GROQ_API_KEY "your_groq_api_key"
 ```
 ---
 ### 3. Huggingface API Key
-1. Visit[Huggingface.co](https://huggingface.co)
+1. Visit [Huggingface.co](https://huggingface.co)
 2. Create Acoount and login.
 3. Go to **Settings -> Access Tokens** 
 3. Provide necessary permissions and Generate Token
@@ -68,7 +68,7 @@ setx HUGGINGFACE_API_KEY "your_huggingface_token"
 ```
 ---
 ### 4. Cohere API Keys
-1. visit[Cohere DAshboard](https://dashboard.cohere.com)
+1. visit [Cohere Dashboard](https://dashboard.cohere.com)
 2. Create Account ang generate API for rquierem purpose.
 
 
@@ -78,7 +78,7 @@ setx COHERE_API_KEY "your_cohere_api_key"
 ```
 ---
 ### 5. Ollama Setup
-Download Ollama from:  [ollama](https://ollama.com)
+Download Ollama from:  [ollama official website ](https://ollama.com)
 
 Start the Ollama Server:
 ```bash
