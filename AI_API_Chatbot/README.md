@@ -138,22 +138,22 @@ If user wants to exit from the program need to type **exit**.
 
 ## Result Screens of the programs 
 ### 1. Gemini chatbot program 
-![gemini cahtbot result](AI_API_Chatbot\results\gemini.jpeg)
+![gemini cahtbot result](results/gemini.jpeg)
 ---
 ### 2. Cohere chatbot program 
-![Cohere cahtbot result](E:\campuspe-ai\AI_API_Chatbot\AI_API_Chatbot\results\cohere.png)
+![Cohere cahtbot result](results/cohere.png)
 ---
 ### 3. Groq chatbot program 
-![Groq chatbot result](AI_API_Chatbot\results\groq result.png)
+![Groq chatbot result](results/groq.png)
 ---
 ### 4. Ollama chatbot program 
 ![Ollama chatbot result]()
 ---
 
 ### 5. Huggingface chatbot program 
-![huggingface chatbot result](AI_API_Chatbot\results\huggingface.png)
+![huggingface chatbot result](results/huggingface.png)
 ---
 ### 6. Multiple API  chatbot program 
-![multiple API query chatbot result](AI_API_Chatbot\results\multiple api.png)
+![multiple API query chatbot result](results/multiple%20api.png)
 ---
 
